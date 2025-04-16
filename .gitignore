@@ -1,0 +1,56 @@
+## ide
+**/.idea
+*.iml
+rebel.xml
+
+## backend
+**/target
+**/logs
+
+## front
+**/*.lock
+
+# Maven #
+target/
+pom.xml.releaseBackup
+release.properties
+**/application-local.yml
+
+# IDEA #
+.idea/
+*.iml
+bin/
+
+# Eclipse #
+.settings/
+.classpath
+.project
+.apt_generated/
+.apt_generated_tests/
+.factorypath
+.springBeans
+.sts4-cache/
+.dbeaver/
+.flattened-pom.xml
+
+# svn#
+.svn/
+
+
+#log#
+logs/
+transaction-logs/
+
+#vscode#
+.vscode/
+
+#node#
+node/
+
+#gradle#
+.gradle/
+build/
+jeewxApi.log
+
+
+**/com/imeshcloud/Mytest*.java
